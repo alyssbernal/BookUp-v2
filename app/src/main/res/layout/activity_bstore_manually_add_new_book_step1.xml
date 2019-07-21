@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BStoreManuallyAddNewBookStep1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ImgBtnBstoreManuallyAddBookS1_Back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="start"
+                app:srcCompat="@drawable/ic_arrow_back"/>
+
+            <TextView
+                android:id="@+id/TxtVwBstoreManuallyAddBookS1_ActTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Manually Add New Book"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:text="Book ISBN"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_ISBN"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="ISBN"
+                    android:inputType="number"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Book Title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_BookTitle"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Title"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Book Author"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Author"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Author"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Genre"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Genre"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Genre"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Edition"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Edition"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Edition"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Book Publisher"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Publisher"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Publisher"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:text="Book Cover Type"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_CoverType"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Cover Type"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Book Price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Price"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Price"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Book Synopsis"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/EdtTxtBstoreManuallyAddBookS1_Synopsis"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Write synopsis..."
+                    android:inputType="textMultiLine"
+                    android:textSize="20dp"/>
+
+                <!--
+                    Step progress here
+                -->
+
+                <Button
+                    android:id="@+id/BtnBstoreManuallyAddBookS1_Continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="Continue"
+                    android:onClick="saveBook"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
